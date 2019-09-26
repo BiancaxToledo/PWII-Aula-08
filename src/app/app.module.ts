@@ -9,6 +9,7 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import {FormsModule} from '@angular/forms';
 import { NgIfComponent } from './ng-if/ng-if.component';
+import { NgSwitchCaseComponent } from './ng-switch-case/ng-switch-case.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { NgIfComponent } from './ng-if/ng-if.component';
     InterpolationBingindComponent,
     PropertyBindingComponent,
     TwoWayBindingComponent,
-    NgIfComponent
+    NgIfComponent,
+    NgSwitchCaseComponent
   ],
   imports: [
     BrowserModule,
