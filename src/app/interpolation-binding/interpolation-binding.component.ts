@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InterpolationBindingComponent implements OnInit 
 {
+  exibeMsg:boolean = true;
+
+  exibir() 
+  {
+    this.exibeMsg = !this.exibeMsg;
+  }
+
+
 
   numero: number=10;
 
